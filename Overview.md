@@ -41,7 +41,7 @@ const express = require('express')
 const app = express()
 ```
 
-These first two lines are respectively used to improt Express for use in the .js file and to create an express server instance with the given name "app"
+These first two lines are respectively used to improt Express for use in the .js file and to create an express server instance with the given name "app".
 
 Third line is used to make port as an variable which is not necessary but it makes user to follow and new people to understand easier.
 
@@ -49,4 +49,19 @@ Third line is used to make port as an variable which is not necessary but it mak
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
+```
+
+Here get helps us to make our routes with first input will be the part which will be the root path as '/', and second input will be a function with 2 values request (req) and response (res). Now inside this code will be run whenever we try to reach the specified URL, in this case it will send 'Hello World!' to the URL.
+
+```
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+```
+This last code is to tell express app to start listening for requests on the specified port. Once it reaches a request it will log the given sentence in the terminal.
+
+Run the app with the following command:
+
+```
+node app.js
 ```
