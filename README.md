@@ -35,3 +35,11 @@ Let's look at some examples. First thing first, what does the message logged and
 
 ![Image of the message logged.](image.png) ![Image of the starting point for local host](image-1.png)
 
+Now, let's see how will it look like after putting in values and once more after choosing an operation:
+
+This code uses html file to create the webapp which has been set so that user can only input int.
+![Inputing 2 values](image-3.png)
+
+Let's try the add operator for this example which should give us 1231 since our second value is 0. The reason I picked 0 as my second value, I want to show that trying to divide with 0 will give a different message and won't be doing the operation itself:
+
+![Adding 1231 and 0](image-4.png) ![Dividing 1231 with 0](image-5.png)
