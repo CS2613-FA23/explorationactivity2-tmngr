@@ -18,9 +18,22 @@ npm install express
 
 3) Start the express server via the "node server" command in the terminal.
 
-4) After making sure that our server.js is running properly (Which will log the sentence "Server started at port " with the port that is running on in the end of the sentence.), next steps is to start a local server on your browser by searching "localhost:4000" (This is 4000 for me because while I was testing the code, I have set the port to this. You can change the port in server.js file.). 
+4) After making sure that our server.js is running properly (Which will log the sentence "Server started at port " with the port that is running on in the end of the sentence.), next steps is to start a local server on your browser by searching "localhost:3000" (This is 3000 for me because while I was testing the code, I have set the port to this. You can change the port in server.js file.). 
 
 With our local host open, we can use this simple calculator as much as we want. One thing to note is that, to reuse the calculator function all you have to do is to go back a page on your browser.
 
 Before closing your terminal (or VScode) make sure to stop server.js by clicking "ctrl + c" on the terminal.
+
+
+# What purpose does your program serve? 
+
+My code has the most basic function of a calculator where you can input 2 numbers and choice an operation from 4 options of "Add", "Subtract", "Divide", and "Multiply".
+
+# What would be some sample input/output?
+
+Let's look at some examples. First thing first, what does the message logged and our local host will look like.
+
+![Image of the message logged.](image.png)
+
+![Image of the starting point for local host](image-1.png)
 
