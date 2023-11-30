@@ -67,13 +67,33 @@ node app.js
 ```
 
 # What are the functionalities of the package/library?
+1. Routing: refers to how an application’s endpoints (URIs) respond to client requests. [^2]
+
+2. Middleware: Middleware functions are functions that have access to the request object (req), the response object (res), and the next middleware function in the application’s request-response cycle. [^3]
+
+3. HTTP Methods: Express supports methods that correspond to all HTTP request methods: get, post, and so on. [^4]
+
+and more. 
 
 # When was it created?
-"Express was born in 2010 when Node.js was still a new and exciting technology that promised to revolutionize web development. Node.js allowed developers to write web applications using JavaScript, the language of the web, and to use asynchronous and event-driven programming, which enabled high performance and scalability. However, Node.js also lacked some of the features and abstractions that web developers were used to, such as routing, templating, middleware, and error handling. That’s where Express came in." [^2]
+"Express was born in 2010 when Node.js was still a new and exciting technology that promised to revolutionize web development. Node.js allowed developers to write web applications using JavaScript, the language of the web, and to use asynchronous and event-driven programming, which enabled high performance and scalability. However, Node.js also lacked some of the features and abstractions that web developers were used to, such as routing, templating, middleware, and error handling. That’s where Express came in." [^5]
 
 # Why did you select this package/library?
 I have been working with Python and Java mostly for school and work projects and one of my projects in the lab required me to work with JS to connect and work with python before. Which is the reason my interest in JS started, along side with this I have been meaning to improve my knowledge more with working web/app designing for future developing purposes. Before deciding on Express.js I have looked at HTML and CSS a little to see if I can make this project on something related to them which led me to webapp framework and this way I have seen both front and back end.
 
 # How did learning the package/library influence your learning of the language?
+In this course I was already getting used to and getting more interested on learning node.js, with this package it has been more clear to me that node.js is very simple language that rely on outside packages. This made the language high-efficient and high-performance which is very interesting language. It is nice to compare something like node.js to octave where most stuff included inside.
 
 # How was your overall experience with the package/library? 
+
+The package Express is a simple package to use. I had close none expreince with any kind of backend and it took me roughly 2 days to understand the basic and I still feel like I can understand the rest as easy after spending time on it. Express servers can be as simple as user wants, and that is one of the main reasons why I will continue to use and learn more of Express.js. I would recommend this package to anyone who is interested in nodejs development or web development.
+
+<sub>
+References:
+</sub>
+
+[^1]: https://expressjs.com/en/starter/hello-world.html
+[^2]: https://expressjs.com/en/guide/routing.html
+[^3]: https://expressjs.com/en/guide/using-middleware.html
+[^4]: https://expressjs.com/en/guide/routing.html
+[^5]: https://medium.com/@ryanneilparker/the-notable-history-of-express-js-6869ba4fcd25
