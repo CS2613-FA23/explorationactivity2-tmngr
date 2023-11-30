@@ -33,7 +33,5 @@ My code has the most basic function of a calculator where you can input 2 number
 
 Let's look at some examples. First thing first, what does the message logged and our local host will look like.
 
-![Image of the message logged.](image.png)
-
-![Image of the starting point for local host](image-1.png)
+![Image of the message logged.](image.png) ![Image of the starting point for local host](image-1.png)
 
