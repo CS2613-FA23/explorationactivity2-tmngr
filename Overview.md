@@ -15,3 +15,21 @@ Since coding is something test base where you have to run after each change and 
 ```
 npm install -g nodemon
 ```
+
+Nodemon's only use here will be that it will rerun the code you are using after each time you save using "ctrl + s"
+
+Now, that we have everything required let us start with the most basic code we can find online sources and go through the necessary parts together.
+
+```
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+```
