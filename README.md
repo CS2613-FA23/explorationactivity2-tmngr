@@ -12,3 +12,10 @@ To install the packgace, we follow the same method as we always do on JS which w
 npm install express
 ```
 
+Now that we have the package installed, next step would be to install the files from this GitHub.
+Keeping all of the files on the same folder, we require to cd to the folder in the terminal (You can do this on VScode which does not require the terminal and you can just click the run button) and start the express server via the "node server". After making sure that our server.js is running properly (Which will log the sentence "Server started at port " with the port that is running on in the end of the sentence.), next steps is to start a local server on your browser by searching "localhost:4000" (This is 4000 for me because while I was testing the code, I have set the port to this. You can change the port in server.js file.). 
+
+With our local host open, we can use this simple calculator as much as we want. One thing to note is that, to reuse the calculator function all you have to do is to go back a page on your browser.
+
+Before closing your terminal (or VScode) make sure to stop server.js by clicking "ctrl + c" on the terminal
+
