@@ -33,3 +33,20 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
 ```
+
+This sniplet of code has been taking from Expressjs.com itself which will be referenced below [^1]
+
+```
+const express = require('express')
+const app = express()
+```
+
+These first two lines are respectively used to improt Express for use in the .js file and to create an express server instance with the given name "app"
+
+Third line is used to make port as an variable which is not necessary but it makes user to follow and new people to understand easier.
+
+```
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+```
